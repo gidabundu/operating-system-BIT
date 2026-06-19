@@ -1,0 +1,34 @@
+# Build artifacts
+*.o
+*.bin
+*.iso
+*.img
+
+# Cache and temporary files
+.cache/
+*.log
+.motd_shown
+
+# Shell and config files (system-specific)
+.bash_history
+.bash_logout
+.bashrc
+.profile
+.config/
+
+# Windows Zone.Identifier files
+*:Zone.Identifier
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# ISO build directory
+iso/
